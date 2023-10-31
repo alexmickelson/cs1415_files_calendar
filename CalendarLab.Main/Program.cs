@@ -1,4 +1,6 @@
-﻿var myEvents = new Dictionary<DateTime, CalendarEvent>() {
+﻿// example of how to use CalendarMonth
+
+var myEvents = new Dictionary<DateTime, CalendarEvent>() {
   { new DateTime(2023, 10, 2), new CalendarEvent("Mow the lawn and prep for class") },
   { new DateTime(2023, 10, 20), new CalendarEvent("Read my favorite book") },
   { new DateTime(2023, 10, 15), new CalendarEvent("Get homework done") },
